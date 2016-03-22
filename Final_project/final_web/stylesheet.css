@@ -91,6 +91,7 @@
     display: block;
     border: solid 6px;
     padding:58px;
+    color: black;
 }
 #form_warp form{
     margin: 40px;
@@ -104,12 +105,15 @@
     display: block;
 border: solid 9px blue;
     margin: 55px;
+    background-color:
 
 }
 
 #upperm2 {
-    display: block;
+    display: block solid 12px;;
+
     font-size: 44px;
+    background-color: green;
 
 }
 #upperm2 ul{
@@ -161,9 +165,7 @@ border: solid 9px blue;
     display: block;
 }
 
-#menu2 {
-    background-color: grey;
-}
+
 
 #text {
     padding: 14px;
@@ -270,4 +272,45 @@ margin: 20px;
 #lis ul li{
     display: block solid;
     padding: 6px;
+}
+
+
+
+
+
+
+#lis li {
+    font-size: 23px;
+    font-family: roboto Condensed;
+    color: #100808;
+}
+
+
+
+#headerabt {
+    display: block solid 4px;
+    font-family: poiret One;
+    color: black;
+}
+
+#fotter {
+    display: block solid 6px;
+    font-family: cursive;
+    font-size: 23px;
+    color: black;
+}
+
+#formtab {
+    color: black;
+
+}
+
+#bd {
+    background-image: url(images/fast_food_burger-wallpaper-1600x900.jpg);
+    width: 100%;
+    height: auto;
+}
+
+#eve {
+    margin: 24px;
 }
