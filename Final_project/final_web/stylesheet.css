@@ -2,6 +2,8 @@
 .bg {
     background-image:url(images/fast_food_burger-wallpaper-1600x900.jpg);
     position:absolute;
+    max-width:100%;
+    height: auto;
 }
 
 #upperm ul{
@@ -35,6 +37,8 @@
     display: block;
 }
 
+}
+
 #upperm ul ul li{
     display: block;
     padding:8px;
@@ -57,22 +61,23 @@
 
 #header h1{
     display:block;
-    margin-top:60px;
-    margin-left:350px;
-    margin-right:500px;
-    padding-left:30px;
     border:solid 1px transparent;
-    background-color:rgba(20, 222, 191, 0.3);
     font-size: 44px;
     font-family:Roboto Condensed;
-    color:#14232f;
+    color: #5f564a
+
 }
 #table {
     display: block;
-    border-collapse: separate;
+    border: solid 3px;
+    width: 3%;
+    border-collapse:collapse;
+    font-size:24px;
+    color: #221010
 }
 #table td:hover{
-    background-color: #e5e53d
+    color: rgba(18, 15, 1, 0.3);
+    box-shadow: 3px 0 9px 9px;
 }
 
 #capt{
@@ -165,5 +170,104 @@ border: solid 9px blue;
 }
 
 .art {
+    display: block;
     background-color: mediumslateblue;
+    margin:5px;
+}
+.art p{
+    display: block solid;
+    margin: 19px;
+    padding-top: 10px;
+}
+
+#menu3 {
+    background-color: #465a0f;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+
+}
+
+#upperm3 {
+    display: block;
+    font-size: 44px;
+
+}
+#upperm3 ul{
+    display: inline-block;
+    border: transparent solid;
+
+}
+#upperm3 ul li{
+
+    list-style: none;
+    display: block;
+    padding: 30px;
+    float: left;
+    height: 60px;
+    line-height: 27px;
+    border-color: rgba(10, 11, 11, 0.3);
+    border-top-color:transparent;
+
+
+
+}
+#upperm3 ul li a{
+    text-align: center;
+    text-decoration: none;
+    font-family:Poiret One;
+    font-size: 30px;
+    color:aliceblue;
+
+}
+#upperm3 a{
+    display: block;
+}
+
+#upperm3 ul ul li{
+    display: block;
+    padding:8px;
+}
+
+#upperm3 ul ul{
+    display: none;
+}
+#upperm3 ul li :hover{
+    border-color:transparent;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    background-color:rgba(20, 222, 191, 0.3);
+}
+#upperm3 ul li:hover > ul{
+    display: block;
+}
+#head{
+display: block;
+margin: 20px;
+    font-family: poier one;
+
+
+}
+
+#head2 {
+    display: block;
+    border: solid 6px;
+    padding: 25px;
+    margin: 20px;
+    border-top-left-radius:6px;
+    border-top-right-radius: 6px;
+    width: 50%;
+    font-family: poriet one;
+    font-size:24px;
+
+
+}
+
+
+#lis ul li{
+    display: block solid;
+    padding: 6px;
 }
