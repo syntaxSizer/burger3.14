@@ -12,13 +12,19 @@
 <title>Burger3.14</title>
 </html>
 <body class="bg">
+
     <nav id="upperm">
         <section/>
     <ul><li><a href="#">Home</a></li>
-        <li><a href="#">Location</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="#">About</a></li></ul></nav>
+        <li><a href="#">Location</a>
+            <ul>
+                <li><a href="#">View-Map</a></li></ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a><ul>
+            <li><a href="#">Delivery</a></li>
+            <li><a href=mailto:burger3.14@gmail.com?subject="Reach%20Out&body=How%20are%20you">Email-us</a></li></ul></li></ul></nav>
     </section>
+
     <section class="cd-intro">
     <div id="header">
         <header><h1 class="cd-headline letters rotate-3">Welcome to BurgerPi
@@ -34,16 +40,17 @@
 <table id=table>
     <caption id="capt">Food Menu</caption>
     <tr id="row1">
-        <td id="pic01"><a href="#"><img src="final_web/images/chips1.jpg"</a></td>
-        <td id="pic02"><a href="#"><img src="final_web/images/chize%20sald.jpg"></a></td>
-        <td id="pic03"><a href="#"><img src="final_web/images/brg1.png"</a></td>
+
+        <td id="pic01"><p>Chips</p><a href="#"><img src="final_web/images/chips1.jpg"></a></td>
+        <td id="pic02"><p>Salad</p><a href="#"><p><img src="final_web/images/chize%20sald.jpg"></a></td>
     </tr>
 
     <tr>
-        <td id="pic04"><a href="#"><img src="final_web/images/onion.jpg"</a></td>
+        <td id="pic04"><p>Onionrings</p><a href="#"><img src="final_web/images/onion.jpg"></a></td>
+            <td id="pic03"><p>NinjaBurger</p><a href="#"><img src="final_web/images/brg1.png"></a></td>
 
 
-    </tr></table></div></section>
+        </tr></table></div></section>
 <script src="js/jquery-2.1.1.js"></script>
 <script src="js/main.js"></script> <!-- Resource jQuery -->
 </body>
