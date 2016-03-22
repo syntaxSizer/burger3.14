@@ -1,14 +1,22 @@
 
 .bg {
     background-image:url(images/fast_food_burger-wallpaper-1600x900.jpg);
-    position:relative;
+    position:absolute;
 }
 
+#upperm ul{
+    display: inline-block;
+    border: transparent solid;
 
+}
 #upperm ul li{
 
     list-style: none;
-    display: inline-block;
+    display: block;
+    padding: 30px;
+    float: left;
+    height: 60px;
+    line-height: 40px;
     border-color: rgba(20, 222, 191, 0.3);
     border-top-color:transparent;
 
@@ -16,19 +24,35 @@
 
 }
 #upperm ul li a{
-    padding: 23px;
-    display:inline-block;
+    text-align: center;
     text-decoration: none;
     font-family:Poiret One;
     font-size: 30px;
     color:aliceblue;
 
 }
-#upperm ul li a:hover{
+#upperm a{
+    display: block;
+}
+
+#upperm ul ul li{
+    display: block;
+    padding:8px;
+}
+
+#upperm ul ul{
+    display: none;
+}
+#upperm ul li :hover{
     border-color:transparent;
-    box-shadow: 0 -10px 5px 2px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
     background-color:rgba(20, 222, 191, 0.3);
 }
+#upperm ul li:hover > ul{
+    display: block;
+}
+
 
 
 #header h1{
@@ -42,4 +66,27 @@
     font-size: 44px;
     font-family:Roboto Condensed;
     color:#14232f;
+}
+#table {
+    display: block;
+    border-collapse: separate;
+}
+#table td:hover{
+    background-color: #e5e53d
+}
+
+#capt{
+    font-family: Roboto Condensed;
+    font-size: 38px;
+    padding-bottom: 30px;
+    color: #2f2626
+
+}
+#form_warp {
+    display: block;
+    border: solid 9px grey;
+}
+
+.arrow {
+
 }
